@@ -2,12 +2,12 @@
 
 /**
 *main - Entry point
-*Return: Always 0 (Success)
+*Return: nothing, return void
 */
 
-int _putchar(char c)
+int main(void)
 {
-	printf("_putchar");
+	_putchar('c');
 	
 	return (0);
 }
