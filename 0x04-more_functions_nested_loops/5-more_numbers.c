@@ -2,6 +2,7 @@
 
 /**
  * void more_numbers - prints 10 times numbers from 0 to 14
+ *@i: value of nubers to be printed
  */
 
 void more_numbers(void)
