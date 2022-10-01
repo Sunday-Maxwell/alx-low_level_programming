@@ -8,14 +8,17 @@
 * Return: always success
 */
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
-	int i, mul = 1;
+	int a, b;
 
-	for (i = 1; i < argc; i++)
+	if (argc == 3)
 	{
-		mul = mul * strtol(argv[i], null, 10);
-		printf("%d\n", mul);
-	}
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+	printf("%d\n", a * b);
 	return (0);
+	}
+	printf("Error\n");
+	return (1);
 }
