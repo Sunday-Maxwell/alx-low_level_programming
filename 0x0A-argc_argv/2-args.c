@@ -3,20 +3,19 @@
 
 /**
 * main - Entry point
-* @argc: number of arguments
-* @argv: array containing the program arguments
-* Return: Always success
+* @argc: count the number of arguments
+* @argv: array containing string of arguments
+* Return: always success
 */
 
 int main(int argc, char *argv[])
 {
 	int i;
-	{
-		(void) argv;
-	}
+
 	for (i = 0; i < argc; i++)
 	{
-		printf("%d\n", i);
+		printf("%s\n", argv[i]);
 	}
 	return (0);
 }
+
