@@ -6,11 +6,11 @@
 */
 typedef struct dog dog_t;
 
-/*
+/**
 * struct dog - structure for dogs
-* @name; first member
-* @age; second member
-* @owner; third member
+* @name: first member
+* @age: second member
+* @owner: third member
 */
 struct dog
 {
